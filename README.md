@@ -1,1 +1,4 @@
 # Change_Detection_War
+This script performs change detection in war-torn areas by processing satellite imagery from Sentinel-2 and other datasets via Google Earth Engine (GEE). The purpose of this analysis is to monitor changes in land cover, infrastructure, and human settlement over time using change detection algorithms, specifically the Iteratively Reweighted Multivariate Alteration Detection (IRMAD) technique.
+
+The script processes imagery by applying spatial filters, generating masks for urban areas, and identifying changes using statistical methods. The results are then clustered, and outputs are exported for further analysis. IRMAD technique functions and the general process was sourced from Morton Canty's tutorial on Change Detection with IRMAD (https://developers.google.com/earth-engine/tutorials/community/imad-tutorial-pt1)
